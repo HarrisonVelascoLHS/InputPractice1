@@ -11,8 +11,8 @@ public class InputPractice1 {
         Scanner keyboard = new Scanner(System.in);
 
         int intOne, intTwo;
-        double doubleOne;
-        boolean boolOne;
+        double doubleOne, doubleTwo;
+        boolean boolOne, boolTwo;
 
 
         System.out.print("Enter an integer :: ");
@@ -21,8 +21,12 @@ public class InputPractice1 {
         intTwo = keyboard.nextInt();
         System.out.print("Enter a float :: ");
         doubleOne = keyboard.nextFloat();
+        System.out.print("Enter a float :: ");
+        doubleTwo = keyboard.nextFloat();
         System.out.print("Enter a bool, (true or false) :: ");
         boolOne = keyboard.nextBoolean();
+        System.out.print("Enter a bool, (true or false) :: ");
+        boolTwo = keyboard.nextBoolean();
 
 
 
@@ -30,7 +34,10 @@ public class InputPractice1 {
         System.out.println("integer one = " + intOne );
         System.out.println("integer two = " + intTwo );
         System.out.println("float one = " + doubleOne);
+        System.out.println("float two = " + doubleTwo);
         System.out.println("boolean one = " + boolOne);
+        System.out.println("boolean two = " + boolTwo);
+
 
         //add output for all variables
     }
